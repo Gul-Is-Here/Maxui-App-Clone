@@ -53,3 +53,20 @@ const icPaginatoinF = 'assets/icons/feature_icons/pagination.png';
 const icPopUpF = 'assets/icons/feature_icons/pop.png';
 const icTabF = 'assets/icons/feature_icons/tab.png';
 const icTimelineF = 'assets/icons/feature_icons/timeline.png';
+
+// Pages Screen list
+const icChatP = 'assets/icons/page_icons/chat.png';
+const icFourmP = 'assets/icons/page_icons/forum.png';
+const icInfoP = 'assets/icons/page_icons/info.png';
+const icLockP = 'assets/icons/page_icons/lock.png';
+const icMaintenanceP = 'assets/icons/page_icons/maintenance.png';
+const icPortfolioP = 'assets/icons/page_icons/portfolio.png';
+const icPricingTableP = 'assets/icons/page_icons/pricing.png';
+const icProfileP = 'assets/icons/page_icons/profile.png';
+const icQuestionP = 'assets/icons/page_icons/question.png';
+const icResetPsswordP = 'assets/icons/page_icons/chat.png';
+const icSearchP = 'assets/icons/page_icons/search.png';
+const icSettingsP = 'assets/icons/page_icons/settings.png';
+const icSignUpP = 'assets/icons/page_icons/signup.png';
+const icSinginP = 'assets/icons/page_icons/singin.png';
+const icGalleryP = 'assets/icons/page_icons/gallery.png';

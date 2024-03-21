@@ -4,7 +4,7 @@ import '../../screens/apps_screen/apps_screen.dart';
 import '../../screens/feature_screen/feature_screen.dart';
 import '../../screens/home/home_screen.dart';
 import '../../screens/pages_screen/pages_screen.dart';
-import '../images_strings.dart';
+import '../strings/images_strings.dart';
 
 const mainIconList = [featureIcon, pagesIcons, appIcon];
 const mainIconString = ['Features', 'Pages', 'Apps'];

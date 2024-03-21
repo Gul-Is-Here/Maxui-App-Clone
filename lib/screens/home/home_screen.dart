@@ -5,7 +5,7 @@ import 'package:velocity_x/velocity_x.dart';
 
 import '../../common/widgets/featured_widget.dart';
 import '../../common/widgets/vsSwipwe_widget.dart';
-import '../../consts/images_strings.dart';
+import '../../consts/strings/images_strings.dart';
 import '../../consts/lists/home_list.dart';
 
 class HomeScreen extends StatelessWidget {

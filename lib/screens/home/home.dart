@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../consts/images_strings.dart';
+import '../../consts/strings/images_strings.dart';
 import '../../consts/lists/home_list.dart';
 import '../../controllers/home_controller.dart';
 

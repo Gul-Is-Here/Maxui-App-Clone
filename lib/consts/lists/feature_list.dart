@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 
 import '../../screens/apps_screen/apps_screen.dart';
-import '../images_strings.dart';
+import '../strings/images_strings.dart';
 
 final featureScreenList = [
+  AppsScreen(),
+  AppsScreen(),
+  AppsScreen(),
+  AppsScreen(),
   AppsScreen(),
   AppsScreen(),
   AppsScreen(),
