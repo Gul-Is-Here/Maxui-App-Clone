@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../consts/images_strings.dart';
-
 class FeaturedWidget extends StatelessWidget {
   const FeaturedWidget({
     Key? key,

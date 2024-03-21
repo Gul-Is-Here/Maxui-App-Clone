@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../consts/images_strings.dart';
+import '../../consts/lists/home_list.dart';
 import '../../controllers/home_controller.dart';
 
 class Home extends StatelessWidget {
@@ -9,11 +10,9 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final HomeController controller = Get.put(HomeController());
-    print('built Calling');
     return Scaffold(
       body: Center(
-        child: Obx(() =>
-            controller.tabOptions.elementAt(controller.selectedIndex.value)),
+        child: Obx(() => tabOptions.elementAt(controller.selectedIndex.value)),
       ),
       bottomNavigationBar: Obx(
         () => BottomNavigationBar(

@@ -28,3 +28,28 @@ const whatsappIcon = 'assets/icons/home_icon/whatsapp.png';
 const facebookIcon = 'assets/icons/home_icon/facebook.png';
 const instagramIcon = 'assets/icons/home_icon/instagram.png';
 const twitterIcon = 'assets/icons/home_icon/twitter.png';
+
+// Drawer icons
+const icHomeD = 'assets/icons/drawer_icons/home.png';
+const icAppD = 'assets/icons/drawer_icons/app.png';
+const icInfoD = 'assets/icons/drawer_icons/info.png';
+const icLoginD = 'assets/icons/drawer_icons/login.png';
+const icPageD = 'assets/icons/drawer_icons/page.png';
+const icPowerD = 'assets/icons/drawer_icons/power.png';
+const icPrivacyD = 'assets/icons/drawer_icons/privacy.png';
+const icSettingD = 'assets/icons/drawer_icons/setting.png';
+const icStarD = 'assets/icons/drawer_icons/star.png';
+
+// Feature Screen Icons
+const icArrowDownF = 'assets/icons/feature_icons/arrow_down.png';
+const icCardF = 'assets/icons/feature_icons/card.png';
+const icBadgeF = 'assets/icons/feature_icons/verified.png';
+const icButtonF = 'assets/icons/feature_icons/switch.png';
+const icformElementF = 'assets/icons/feature_icons/exam.png';
+const icListF = 'assets/icons/feature_icons/list.png';
+const icGridF = 'assets/icons/feature_icons/menu.png';
+const icNavBarF = 'assets/icons/feature_icons/more.png';
+const icPaginatoinF = 'assets/icons/feature_icons/pagination.png';
+const icPopUpF = 'assets/icons/feature_icons/pop.png';
+const icTabF = 'assets/icons/feature_icons/tab.png';
+const icTimelineF = 'assets/icons/feature_icons/timeline.png';

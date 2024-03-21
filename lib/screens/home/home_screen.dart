@@ -1,22 +1,41 @@
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:maxui_app_clone/common/widgets/myDrawer_widget.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../../common/widgets/featured_widget.dart';
 import '../../common/widgets/vsSwipwe_widget.dart';
 import '../../consts/images_strings.dart';
-import '../../controllers/home_screen_controller.dart';
+import '../../consts/lists/home_list.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    final controller = Get.put(HomeScreenController());
     return Scaffold(
-      drawer: const Drawer(
-          // Add items to the drawer
+      drawer: Drawer(
+        width: MediaQuery.of(context).size.width * 0.75,
+        child: Padding(
+          padding: const EdgeInsets.only(top: 30.0),
+          child: SingleChildScrollView(
+            child: Column(
+              children: List.generate(
+                drawerTextList.length,
+                (index) => MyDrawerItem(
+                  title: drawerTextList[index],
+                  bgColor: drawerContainerBgColors[index],
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => drawerScreens[index],
+                    ));
+                  },
+                  icon: drawericonList[index], // Convert Icons to IconData
+                ),
+              ),
+            ),
           ),
+        ),
+      ),
       appBar: AppBar(
         // Use IconButton with 'menu' icon to open the drawer
         // leading: IconButton(
@@ -221,11 +240,13 @@ class HomeScreen extends StatelessWidget {
                               icon: ClipRRect(
                                 borderRadius: BorderRadius.circular(20),
                                 child: Container(
-                                  color: Colors.white,
+                                  width: 40,
+                                  height: 40,
+                                  color: Colors.blue,
                                   child: Image.asset(
-                                    controller.socialMediaIconList[index],
+                                    socialMediaIconList[index],
                                     fit: BoxFit.cover,
-                                    width: 35,
+                                    // width: 35,
                                   ),
                                 ),
                               ))),
