@@ -70,3 +70,10 @@ const icSettingsP = 'assets/icons/page_icons/settings.png';
 const icSignUpP = 'assets/icons/page_icons/signup.png';
 const icSinginP = 'assets/icons/page_icons/singin.png';
 const icGalleryP = 'assets/icons/page_icons/gallery.png';
+
+// Apps Screen List
+const icComingSoonA = 'assets/icons/app_icons/comingsoon.png';
+const icNavBarA = 'assets/icons/app_icons/navbar.png';
+const icPhoneA = 'assets/icons/app_icons/phone.png';
+const icPhotoGalleryA = 'assets/icons/app_icons/photogallery.png';
+const icPageNotFoundA = 'assets/icons/app_icons/warning.png';
